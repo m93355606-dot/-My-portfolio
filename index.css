@@ -1,0 +1,60 @@
+body{
+  display: flex;
+  justify-content: center
+  ;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(to right, green 30%, blue);
+  color:white;
+}
+
+div{
+  border: solid white;
+  border-radius: 25px;
+  padding: 15px;
+ 
+  
+}
+
+
+a, h4{
+  text-decoration: none;
+  color: white;
+
+}
+
+a{
+  font-weight: 600;
+  font-size: medium;
+ 
+}
+
+ .main{
+
+padding: 15px;
+justify-content: center;
+  }
+
+
+  #xp, #Projects, #Contacts{
+font-weight: 700;
+font-size: large;
+
+  }
+
+  img{
+    border-radius: 50px;
+
+  }
+
+  h1{
+    font-family: "Imperial script";
+    font-size: 50px;
+    font-weight: 550
+    
+  }
+#website{
+ display: flex;
+ justify-content: center;
+ 
+}
