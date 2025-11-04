@@ -6,7 +6,6 @@ body{
   flex-direction: column;
   background-image: linear-gradient(to right, green 30%, blue);
   color:white;
-  
 }
 
 div{
@@ -28,37 +27,63 @@ a{
   font-size: medium;
 }
 
+ .main{
 
-  
+padding: 15px;
+justify-content: center;
+  }
 
 
-  #xp, #Projects, #Contact{
+  #xp, #Projects, #Contacts{
 font-weight: 700;
 font-size: large;
 
-
   }
+
 
   img{
     border-radius: 50px;
-    border: white solid;
-    
 
   }
 
   h1{
-    font-family: "imperial script";
+    font-family: "tangerine";
     font-size: 50px;
-    font-weight: 450;
   }
 
-  @keyframes fadein{
-    0% {opacity: 0;}
-    100% {opacity: 1;}
+  @media (max-width: 600px){
+body{
+  display: flex;
+  justify-content: center
+  ;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(to right, green 30%, blue);
+  color:white;
+  padding: 30px;
+  width: 85%;
+  overflow-x: hidden;
+  margin: auto;
+  
+}
+h1{
+ 
+ font-size: 13vh;
+ 
+}
+
+div{
+
+ width:90%;
+}
+
+.con{
+  padding: 11px;
+ 
+ 
+}
+
+#tel, #email{
+  font-size: calc(1vh + 10px);
+}
   }
-
-  body{
-    animation: 3s fadein;
-  }
-
-
