@@ -58,3 +58,13 @@ font-size: large;
  justify-content: center;
  
 }
+
+
+  @keyframes fadein{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
+  body{
+    animation: 3s fadein;
+  }
