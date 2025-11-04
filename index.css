@@ -87,3 +87,42 @@ div{
   font-size: calc(1vh + 10px);
 }
   }
+
+
+ 
+  @media (max-width: 400px){
+body{
+  display: flex;
+  justify-content: center
+  ;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(to right, green 30%, blue);
+  color:white;
+  padding: 30px;
+  width: 85%;
+  overflow-x: hidden;
+  margin: auto;
+  
+}
+h1{
+ 
+ font-size: 13vh;
+ 
+}
+
+div{
+
+ width:90%;
+}
+
+.con{
+  padding: 11px;
+ 
+ 
+}
+
+#tel, #email{
+  font-size: calc(1vh + 10px);
+}
+  } 
