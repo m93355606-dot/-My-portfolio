@@ -4,9 +4,9 @@ body{
   ;
   align-items: center;
   flex-direction: column;
+  background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 
-  background: #020024;
-background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 27%, rgba(0, 212, 255, 1) 100%);
+  height: 100vh;
 
   color: white;
   
@@ -33,8 +33,9 @@ a{
   font-size: medium;
   margin-left: auto;
  margin-right: auto;
-
  font: large;
+ text-decoration-thickness: 3px;
+ text-decoration-skip: ;
 
 
 }
@@ -42,13 +43,24 @@ a{
  .main{
 
 padding: 15px;
+padding-top: 0;
+border:white solid 5px;
+background-image: linear-gradient(66deg, rgba(2, 0, 36, 1) 20%, rgba(0, 0, 0, 1) 22%, rgba(0, 212, 255, 1) 62%) ;
+background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+
+padding-right: 13px;
+
+
+
+
 
 
  }
 
   #xp, #Projects, #Contact{
 font-weight: 700;
-font-size:larger;
+font-size:25px;
 width: max-content;
 margin-left: auto;
 margin-right: auto;
@@ -60,7 +72,6 @@ font-family: "audiowide";
   }
 
   img{
-    border:solid white;
     border-radius: 50px;
 
   }
@@ -75,35 +86,63 @@ font-family: "audiowide";
     display: grid;
     align-items: center;
  
-  background: #020024;
-background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 27%, rgba(0, 212, 255, 1) 100%);
+
+background: linear-gradient(66deg, rgba(2, 0, 36, 1) 20%, rgba(0, 0, 0, 1) 22%, rgba(0, 212, 255, 1) 62%);
+
+
 
 width: max-content;
 margin-left: auto;
 margin-right: auto;
 
 
+
     
   }
 
-@media (max-width:600px){
-  h1{
-    font-size:30px;
-
-
+  p, h4{
+    font-weight: 800;
+    font-family: "audiowide";
   }
 
-  .main{
-    padding:10px;
-  }
+h4{
+
+}
+
+a{
+
+  display: grid;
+    align-items: center;
+ 
+ font-size: larger;
+ font-weight: 800;
+ font-family: "audiowide";
+
+background-image: linear-gradient(66deg, rgba(2, 0, 36, 1) 20%, rgba(0, 0, 0, 1) 22%, rgba(0, 212, 255, 1) 62%) ;
+
+padding: 20px;
+
+border-radius: 50px;
+
+border: white solid;
+
+
+
+
+width: max-content;
+margin-left: auto;
+margin-right: auto;
+
+
+
+}
+
+h4{
+display: grid;
+justify-items: center;
+font-size: larger;
+font-weight: 800;
 }
 
 
- *{
-   font-weight:800;
- }
-
-
  
-
-
