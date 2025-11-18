@@ -5,8 +5,7 @@ body{
   align-items: center;
   flex-direction: column;
 
-  background: #020024;
-background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 27%, rgba(0, 212, 255, 1) 100%);
+
 
   color: white;
   
@@ -74,8 +73,8 @@ font-family: "audiowide";
     display: grid;
     align-items: center;
  
-
-background: linear-gradient(66deg, rgba(2, 0, 36, 1) 20%, rgba(0, 0, 0, 1) 22%, rgba(0, 212, 255, 1) 62%);
+  background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 27%, rgba(0, 212, 255, 1) 100%);
 
 width: max-content;
 margin-left: auto;
