@@ -4,14 +4,17 @@ body{
   ;
   align-items: center;
   flex-direction: column;
-  background-image: linear-gradient(to right, green 30%, blue);
-  color:white;
+  background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+
+  color: white;
+  
 }
 
 div{
   border: solid white;
   border-radius: 25px;
   padding: 15px;
+  align-items: center;
   
 }
 
@@ -19,27 +22,40 @@ div{
 a, h4{
   text-decoration: none;
   color: white;
+ 
 
 }
 
 a{
   font-weight: 600;
   font-size: medium;
+  margin-left: auto;
+ margin-right: auto;
+text-decoration: underline blue ;
+ font: large;
+ text-decoration-thickness: 3px;
+
 }
 
  .main{
 
 padding: 15px;
-justify-content: center;
-  }
 
 
-  #xp, #Projects, #Contacts{
+ }
+
+  #xp, #Projects, #Contact{
 font-weight: 700;
-font-size: large;
+font-size:larger;
+width: max-content;
+margin-left: auto;
+margin-right: auto;
+font-family: "audiowide";
+
+
+
 
   }
-
 
   img{
     border-radius: 50px;
@@ -47,83 +63,27 @@ font-size: large;
   }
 
   h1{
-    font-family: "imperial script";
+    font-family: "audiowide";
     font-size: 50px;
   }
 
-  @media (max-width: 600px){
-body{
-  display: flex;
-  justify-content: center
-  ;
-  align-items: center;
-  flex-direction: column;
-  background-image: linear-gradient(to right, green 30%, blue);
-  color:white;
-  padding: 30px;
-  width: 85%;
-  overflow-x: hidden;
-  margin: auto;
-  
-}
-h1{
- 
- font-size: 13vh;
-  font-wheight:300;
- 
-}
 
-div{
-
- width:90%;
-}
-
-.con{
-  padding: 11px;
+  .a{
+    display: grid;
+    align-items: center;
  
- 
-}
 
-#tel, #email{
-  font-size: calc(1vh + 10px);
-}
+background: linear-gradient(66deg, rgba(2, 0, 36, 1) 20%, rgba(0, 0, 0, 1) 22%, rgba(0, 212, 255, 1) 62%);
+
+width: max-content;
+margin-left: auto;
+margin-right: auto;
+
+
+    
   }
 
 
  
-  @media (max-width: 400px){
-body{
-  display: flex;
-  justify-content: center
-  ;
-  align-items: center;
-  flex-direction: column;
-  background-image: linear-gradient(to right, green 30%, blue);
-  color:white;
-  padding: 30px;
-  width: 85%;
-  overflow-x: hidden;
-  margin: auto;
-  
-}
-h1{
- 
- font-size: 13vh;
- 
-}
 
-div{
 
- width:90%;
-}
-
-.con{
-  padding: 11px;
- 
- 
-}
-
-#tel, #email{
-  font-size: calc(1vh + 10px);
-}
-  } 
