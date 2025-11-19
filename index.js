@@ -1,20 +1,11 @@
-function changeOpacity(event){
-  event.preventDefault();
+function changeOpacity(event) {
+  event.preventDefault(); // stop navigation
   const a = document.getElementById("a");
-const url = a.href
-  a.style.opacity = "0.5";
+  const url = a.href;
 
+  a.style.opacity = "0"; // fade out fully
 
-  setTimeout(
-
-    function (){
-  const b = document.getElementById("a");
-
-  b.style.opacity = "1"; 
-  window.location.href = url;
-}, 500); 
-
-
+  setTimeout(function() {
+    window.location.href = url; // navigate after fade
+  }, 500); // matches CSS transition duration
 }
-
-
