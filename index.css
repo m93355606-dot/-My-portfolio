@@ -1,11 +1,10 @@
 body{
   display: flex;
-  justify-content: center
+  
   ;
   align-items: center;
   flex-direction: column;
   background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
-
 
 
   color: white;
@@ -35,7 +34,7 @@ a{
  margin-right: auto;
  font: large;
  text-decoration-thickness: 3px;
- text-decoration-skip: ;
+
 
 
 }
@@ -44,9 +43,9 @@ a{
 
 padding: 15px;
 padding-top: 0;
-border:white solid 5px;
-background-image: linear-gradient(66deg, rgba(2, 0, 36, 1) 20%, rgba(0, 0, 0, 1) 22%, rgba(0, 212, 255, 1) 62%) ;
-background: #020024;
+border:white solid 6px;
+
+
 background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 
 padding-right: 13px;
@@ -72,8 +71,10 @@ font-family: "audiowide";
   }
 
   img{
-    border-radius: 50px;
-
+  
+   width: 150px;
+   height: 150px;
+  
   }
 
   h1{
