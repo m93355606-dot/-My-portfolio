@@ -11,4 +11,4 @@ setTimeout(
   const b = document.getElementById("a");
 
   b.style.opacity = "1"; 
-}, 10); 
+}, 500); 
