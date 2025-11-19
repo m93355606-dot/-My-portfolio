@@ -3,12 +3,16 @@ function changeOpacity(){
 
   a.style.opacity = "0.5";
 
-}
 
-setTimeout(
+  setTimeout(
 
     function (){
   const b = document.getElementById("a");
 
   b.style.opacity = "1"; 
 }, 500); 
+
+
+}
+
+
