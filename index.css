@@ -146,4 +146,7 @@ font-weight: 800;
 }
 
 
- 
+ #a {
+  transition: opacity 0.5s ease; /* makes opacity change smoothly */
+}
+
