@@ -145,12 +145,25 @@ font-size: larger;
 font-weight: 800;
 }
 
+<!DOCTYPE html>
 
- #a {
- 
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fade Then Shrink Link Example</title>
+<style>
+  #a {
+    opacity: 1; /* start fully visible */
+    transform: scale(1); /* normal size */
+    transition: opacity 0.5s ease, transform 0.3s ease; /* fade and shrink transitions */
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
 
-   opacity:1;
-
-    transition: opacity 0.5s ease; /* makes opacity change smoothly */
-}
 
