@@ -12,5 +12,3 @@ setTimeout(
 
   b.style.opacity = "1"; 
 }, 10); 
-
-  
