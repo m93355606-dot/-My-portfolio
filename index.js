@@ -1,4 +1,5 @@
-function changeOpacity(){
+function changeOpacity(event){
+  event.preventDefault();
   const a = document.getElementById("a");
 
   a.style.opacity = "0.5";
