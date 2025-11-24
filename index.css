@@ -160,6 +160,19 @@ font-weight: 800;
     height: fit-content;
   }
 }
+
+
+
+
+@media(max-width: 350px){
+  *{
+    font-size: small;
+  }
+
+  h1{
+    font-size: 20px;
+  }
+}
  
 
 
