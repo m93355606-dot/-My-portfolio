@@ -71,10 +71,12 @@ font-family: "audiowide";
   }
 
   img{
-  
+  border:  8px transparent;
    width: 150px;
    height: 150px;
-  
+   background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 27%, rgba(0, 212, 255, 1) 100%) border-box, 
+   linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 27%, rgba(0, 212, 255, 1) 100%) padding-box;
+  border-radius: 50%;
   }
 
   h1{
@@ -125,7 +127,7 @@ padding: 20px;
 
 border-radius: 50px;
 
-border: white solid;
+border: white solid 4px;
 
 
 
@@ -172,8 +174,29 @@ font-weight: 800;
   h1{
     font-size: 20px;
   }
+
+  body{
+    height: 100vh;
+  }
 }
- 
+
+@media (max-width:400px){
+.main{
+  width: 80%;
+  
+}
+
+body{
+  height: 100vh;
+  
+}
+
+p{
+  font-size: smaller;
+}
+
+}
+
 
 
 
