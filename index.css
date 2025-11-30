@@ -71,11 +71,11 @@ font-family: "audiowide";
   }
 
   img{
-  border:  8px transparent;
+  border:   transparent 10px solid;
    width: 150px;
    height: 150px;
-   background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 27%, rgba(0, 212, 255, 1) 100%) border-box, 
-   linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 27%, rgba(0, 212, 255, 1) 100%) padding-box;
+   background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 27%, rgba(0, 212, 255, 1) 100%) padding-box, 
+   linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 27%, rgba(0, 212, 255, 1) 100%) border-box;
   border-radius: 50%;
   }
 
@@ -107,10 +107,6 @@ margin-right: auto;
     font-weight: 800;
     font-family: "audiowide";
   }
-
-h4{
-
-}
 
 a{
 
