@@ -53,6 +53,7 @@
     <script>
 
       
+      
     function changeOpacity(){
   const a = document.getElementById("a");
 
@@ -60,13 +61,14 @@
 
 
 }
-setTimeout(
+
+setTimeout(revert(), 200)
+
      function revert(){
   const b = document.getElementById("a");
 
-  b.style.opacity = "1"; 2;})
+  b.style.opacity = "1"; 2;}
     
-    </script>
 
 </body>
 </html>
