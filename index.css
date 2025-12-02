@@ -1,7 +1,7 @@
 body{
   display: flex;
   
-  
+  ;
   align-items: center;
   flex-direction: column;
   background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
@@ -51,7 +51,7 @@ background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%,
 padding-right: 13px;
 
 
-border-radius: 50px;
+
 
 
 
@@ -71,12 +71,10 @@ font-family: "audiowide";
   }
 
   img{
-  border:   transparent 10px solid;
+  
    width: 150px;
    height: 150px;
-   background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 27%, rgba(0, 212, 255, 1) 100%) padding-box, 
-   linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 27%, rgba(0, 212, 255, 1) 100%) border-box;
-  border-radius: 50%;
+  
   }
 
   h1{
@@ -108,22 +106,23 @@ margin-right: auto;
     font-family: "audiowide";
   }
 
+
+
 a{
 
   display: grid;
     align-items: center;
  
- font-size: larger;
- font-weight: 800;
+ font-size: 25px;
+ font-weight: 900;
  font-family: "audiowide";
 
-background-image: linear-gradient(66deg, rgba(2, 0, 36, 1) 20%, rgba(0, 0, 0, 1) 22%, rgba(0, 212, 255, 1) 62%) ;
-
+z-index: +1;
 padding: 20px;
 
 border-radius: 50px;
 
-border: white solid 4px;
+
 
 
 
@@ -143,59 +142,57 @@ font-size: larger;
 font-weight: 800;
 }
 
-@media (max-width: 600px){
-  *{
-    font-size: small;
-
-  }
-
-  h1{
-    font-size: 30px;
-  }
-
-  img{
-    width: fit-content;
-    height: fit-content;
-  }
-}
-
-
-
-
-@media(max-width: 350px){
-  *{
-    font-size: smaller;
-    text-decoration: none;
-  }
-
-  h1{
-    font-size: 20px;
-  }
-
-  body{
-    height: 100vh;
-  }
-}
-
-@media (max-width:400px){
-.main{
-  width: 80%;
+#a{
+  position: relative;
   
 }
 
-body{
-  height: 100vh;
+@property --angle{
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+
+#a::after, #a::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border: solid;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+ background: conic-gradient(from var(--angle), blue, cyan) padding-box,
+ conic-gradient(from var(--angle), blue, cyan) border-box;
+  animation: 3s rotate linear infinite;
+  border-radius:50px ;
+  z-index: -1;
+  
   
 }
 
-p{
-  font-size: smaller;
-  text-decoration: none;
-  font-size: smaller;
-}
+
+#a::before{
+  filter: blur(1.5rem)
 
 }
 
+@keyframes rotate{
 
+from{
+  --angle:0deg;
+}
+to{
+  --angle:360deg;
+}
+}
 
+*{
+  font-weight: 900;
+  
+}
 
+h4{
+  font-size: larger;
+}
+ 
