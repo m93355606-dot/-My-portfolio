@@ -205,11 +205,11 @@ h4{
 
 @media (max-width:500px){
  body{
-   width:min-content;
+   
    font-size:smaller;
-    overflow-x:hidden;
+    
    height:100%;
-   width:110%;
+   width:100%;
  }
 
   .main{
@@ -218,7 +218,7 @@ h4{
     overflow-x:hidden;
   }
 h1{
-  font-size:small;
+  font-size:medium;
 }
   
 }
