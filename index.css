@@ -197,7 +197,7 @@ h4{
   font-size: larger;
 }
  
-*:hover{
+*:hover not:(body){
   transform:scale(110%);
   transition-duration:0.3s;
 }
