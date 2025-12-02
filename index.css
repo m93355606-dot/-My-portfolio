@@ -210,5 +210,11 @@ h4{
     overflow-x:hidden;
  }
 
+  .main{
+     width:min-content;
+   font-size:smaller;
+    overflow-x:hidden;
+  }
+
   
 }
