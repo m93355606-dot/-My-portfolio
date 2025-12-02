@@ -52,20 +52,24 @@
 </div>
     <script>
   
-   document.getElementById("a").onclick = function changeOpacity(){
-  
+  function changeOpacity(){
+  const a = document.getElementById("a");
 
   a.style.opacity = "0.5";
 
+}
 
-};
+setTimeout(
+
+    function changeOpacity(){
+  
+
+  a.style.opacity = "1"; 
+}, 500); 
+
+  
 
 
-   function revert(){
-    const a = document.getElementById("a")
-     a.style.opacity = "1";
-  }; 
-setTimeout(revert, 500);
     </script>
 
 </body>
