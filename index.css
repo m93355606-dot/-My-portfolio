@@ -202,15 +202,12 @@ h4{
 
 
 
-#a:active{
-  opacity:1;
-  
-}
 
 @media (max-width:500px){
  body{
-   width:fit-content;
+   width:min-content;
    font-size:medium;
+    overflow:hidden;
  }
 
   
