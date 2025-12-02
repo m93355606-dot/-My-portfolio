@@ -144,8 +144,7 @@ font-weight: 800;
 
 #a{
   position: relative;
-   opacity:1;
-  transition-duration:0.3s;
+
   
 }
 
@@ -198,3 +197,8 @@ h4{
   font-size: larger;
 }
  
+*:hover{
+  transform:scale(110%);
+  transition-duration:0.3s;
+}
+  
