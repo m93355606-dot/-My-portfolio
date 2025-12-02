@@ -208,8 +208,8 @@ h4{
    width:min-content;
    font-size:smaller;
     overflow-x:hidden;
-   height:100vh;
-   width:100vh;
+   height:100%;
+   width:100%;
  }
 
   .main{
