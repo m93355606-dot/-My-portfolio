@@ -31,7 +31,7 @@
 </p>
 
   
-<a href="https://mywebsite100.vercel.app" class="btn"  id="a" onclick="changeOpacity())">My website</a>
+<a href="https://mywebsite100.vercel.app" class="btn"  id="a" onclick="changeOpacity(); revert()">My website</a>
 
 
 <br>
@@ -56,11 +56,13 @@
   const a = document.getElementById("a");
 
   a.style.opacity = "0.5";
-  onMouseUp= a.style.opacity = "1";  
+ 
   }
 
         
-
+function revert(){
+     onMouseUp= a.style.opacity = "1";  
+}
   
 
 
