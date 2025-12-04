@@ -11,10 +11,6 @@ body{
   
 }
 
-body::webkit-scrollbar{
-  width:0;
-}
-
 div{
   border: solid white;
   border-radius: 25px;
@@ -50,8 +46,8 @@ padding-top: 0;
 border:white solid 6px;
 
 
-background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
-border-radius:40px;
+
+
 padding-right: 13px;
 
 
@@ -92,7 +88,7 @@ font-family: "audiowide";
     align-items: center;
  
 
-background: linear-gradient(66deg, rgba(2, 0, 36, 1) 20%, rgba(0, 0, 0, 1) 22%, rgba(0, 212, 255, 1) 62%);
+
 
 
 
@@ -117,20 +113,16 @@ a{
   display: grid;
     align-items: center;
  
- font-size: 25px;
- font-weight: 900;
+ font-size: larger;
+ font-weight: 800;
  font-family: "audiowide";
 
-z-index: +1;
+background-image: linear-gradient(66deg, rgba(2, 0, 36, 1) 20%, rgba(0, 0, 0, 1) 22%, rgba(0, 212, 255, 1) 62%) ;
+
 padding: 20px;
 
+
 border-radius: 50px;
-
-
-
-
-
-
 width: max-content;
 margin-left: auto;
 margin-right: auto;
@@ -163,11 +155,11 @@ font-weight: 800;
   position: absolute;
   height: 100%;
   width: 100%;
-  border: solid;
+  padding: 5px;
   top: 50%;
   left: 50%;
   translate: -50% -50%;
- background: conic-gradient(from var(--angle), blue, cyan) padding-box,
+ background: conic-gradient(from var(--angle), blue 40%, cyan) padding-box,
  conic-gradient(from var(--angle), blue, cyan) border-box;
   animation: 3s rotate linear infinite;
   border-radius:50px ;
@@ -178,7 +170,7 @@ font-weight: 800;
 
 
 #a::before{
-  filter: blur(1.5rem)
+  filter: blur(2rem)
 
 }
 
@@ -192,40 +184,3 @@ to{
 }
 }
 
-*{
-  font-weight: 900;
-  
-}
-
-h4{
-  font-size: larger;
-}
- 
-
-
-
-
-
-
-@media (max-width:500px){
- body{
-   
-   font-size:smaller;
-    overflow-y:hidden;
-   height:100%;
-   width:100%;
- }
-
-  .main{
-     width:min-content;
-   font-size:smaller;
-    overflow-x:hidden;
-  }
-h1{
-  font-size:large;
-}
-
-  p{
- font-size:small; }
-  
-}
