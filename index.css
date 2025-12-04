@@ -212,7 +212,7 @@ h4{
  body{
    
    font-size:smaller;
-    overflow-y:hidden;
+   
    height:100%;
    width:100%;
  }
@@ -220,7 +220,7 @@ h4{
   .main{
      width:min-content;
    font-size:smaller;
-    overflow-x:hidden;
+    
   }
 h1{
   font-size:large;
