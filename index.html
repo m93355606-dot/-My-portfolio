@@ -52,18 +52,18 @@
 </div>
     <script>
   
-  function changeOpacity(){
-  const a = document.getElementById("a");
+function changeOpacity() {
+  const btn = document.getElementById("a");
 
-  a.style.opacity = "0.5";
- 
-  
-setTimeout(function revert(){
-    const b = document.getElementById("a")
-     onMouseUp= b.style.opacity = "1";  
-}, 500; )
-        
+  // Fade to 0.5 on click
+  btn.style.opacity = "0.5";
+
+  // Revert to 1 after 500ms
+  setTimeout(() => {
+    btn.style.opacity = "1";
+  }, 500);
 }
+
 
 
     </script>
